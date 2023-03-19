@@ -1,0 +1,89 @@
+h1 {
+    background-color: rgba(140, 77, 77, 0.278);
+    color:rgb(255, 255, 255);
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 35px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    padding: 30;
+}
+
+h2 {
+    background-color: rgba(69, 55, 125, 0.278);
+    color:rgb(255, 255, 255);
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 35px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    padding: 30;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-left: 10px solid rgb(183, 186, 86);
+    border-top: 10px solid rgb(57, 59, 132);
+    border-bottom: 10px solid rgb(149, 59, 58);
+    border-right: 10px solid rgb(183, 186, 86);
+}
+
+h3 {
+    color:rgb(0, 0, 0);
+    font-family: Times, Times New Roman, serif;
+    font-size: 23px;
+}
+
+h4 {
+    background-color: rgba(145, 149, 68, 0.278);
+    color:rgb(255, 255, 255);
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 35px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    padding: 30;
+}
+
+div.container {
+    text-align: center;
+}
+
+ol {
+    background: hsl(36, 35%, 65%);
+    display:inline-block;
+    margin: 5px;
+    padding: 20px;
+}
+
+ol li {
+    background: #d6cbac;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+ul.a {
+    background: hsl(36, 35%, 65%);
+    display:inline-block;
+    margin: 5px;
+    padding: 20px;
+}
+
+ul li {
+    background: #d6cbac;
+    color: rgb(0, 0, 0);
+    margin: 5px;
+}
