@@ -1,0 +1,56 @@
+/* styles the title*/
+h1{
+    color:white;
+    text-align: center;
+    margin-top: 250px;
+}
+
+/* styles the page and items*/
+.container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+/* styles the image*/
+img {
+    padding: 5px;
+}
+
+/* styles the body*/
+body{
+background-color: rgb(21, 21, 21);
+}
+
+/* styles the text that is being used as a caption*/
+figcaption{
+    text-align: center;
+    color:white;
+}
+
+/* styles the image*/
+.image1{
+    border: solid 3px rgb(100, 62, 62);
+    border-radius: 30px;
+    filter:contrast(100%);
+}
+
+/* styles the image*/
+.image2{
+    border: solid 3px rgb(143, 141, 87);
+    border-radius: 30px;
+    filter:contrast(100%);
+}
+
+/* styles the image*/
+.image3{
+    border: solid 3px rgb(128, 103, 48);
+    border-radius: 30px;
+    filter:contrast(100%);
+}
+
+/* styles the specific section*/
+section{
+    display: inline-block;
+}

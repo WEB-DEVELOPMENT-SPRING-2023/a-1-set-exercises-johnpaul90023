@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap'); /* This is the google font*/
+
+/* this styles the text*/
+h1{
+    color: rgb(115, 193, 159);
+    text-align: center;
+    font-size: 90px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-family: 'EB Garamond', serif;
+}
+
+/* this styles the text*/
+h2{
+    color:rgb(115, 193, 159);
+    font-family: 'EB Garamond', serif;
+}
+
+/* this styles the body*/
+body{
+    background-color: rgb(66, 64, 64);
+}
+
+/* this styles the item into the middle*/
+form{
+    display:block;
+    text-align: center;
+    padding: 20;
+    font-family: 'EB Garamond', serif;
+}
+
+/* this styles the text into the middle*/
+p{
+    text-align: center;
+}
+
+/* this styles the input texts*/
+input{
+    padding-left: 39px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom:20px;
+    font-size: 20px;
+    border-radius: 30px;
+    color:rgb(115, 193, 159);
+    background-color: rgb(48, 92, 73);
+    border: none;
+    font-family: 'EB Garamond', serif;
+}
+
+/* this styles the button*/
+.button{
+    font-size: 30px;
+    margin-top: 70px;
+    padding: 10px;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.24);
+    cursor: pointer;
+    color:rgb(115, 193, 159);
+    font-family: 'EB Garamond', serif;
+}
+
+/* this styles the outcome text*/
+.container{
+    color: rgb(115, 193, 159);
+    font-size: 20px;
+    background-color:rgb(49, 93, 74);
+    width: 25%;
+    text-align: center;
+    margin-left: 715px;
+    border-radius: 30px;
+    font-family: 'EB Garamond', serif;
+    
+}

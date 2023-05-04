@@ -1,4 +1,5 @@
-h1 {
+/* the h1 styles the title*/
+h1 { 
     background-color: rgba(140, 77, 77, 0.278);
     color:rgb(255, 255, 255);
     font-family: Brush Script MT, Brush Script Std, cursive;
@@ -11,6 +12,7 @@ h1 {
     padding: 30;
 }
 
+/* the h2 styles a title */
 h2 {
     background-color: rgba(69, 55, 125, 0.278);
     color:rgb(255, 255, 255);
@@ -24,6 +26,7 @@ h2 {
     padding: 30;
 }
 
+/* center to center all of the items in the middle of the page*/
 .center {
     display: block;
     margin-left: auto;
@@ -35,12 +38,14 @@ h2 {
     border-right: 10px solid rgb(183, 186, 86);
 }
 
+/* the h3 styles the text that are placed on the body */
 h3 {
     color:rgb(0, 0, 0);
     font-family: Times, Times New Roman, serif;
     font-size: 23px;
 }
 
+/* the h4 styles a title */
 h4 {
     background-color: rgba(145, 149, 68, 0.278);
     color:rgb(255, 255, 255);
@@ -54,10 +59,12 @@ h4 {
     padding: 30;
 }
 
-div.container {
+/* used container as a class to position the list in the center*/
+.container {
     text-align: center;
 }
 
+/* used to style the list*/
 ol {
     background: hsl(36, 35%, 65%);
     display:inline-block;
@@ -65,8 +72,9 @@ ol {
     padding: 20px;
 }
 
+/* used to style the list*/
 ol li {
-    background: #d6cbac;
+    background: hsl(36, 35%, 65%);
     color: rgb(0, 0, 0);
     padding: 5px;
     margin-top: 15px;
@@ -75,6 +83,7 @@ ol li {
     margin-right: 5px;
 }
 
+/* used to style the list*/
 ul.a {
     background: hsl(36, 35%, 65%);
     display:inline-block;
@@ -82,8 +91,9 @@ ul.a {
     padding: 20px;
 }
 
+/* used to style the list*/
 ul li {
-    background: #d6cbac;
+    background: hsl(36, 35%, 65%);
     color: rgb(0, 0, 0);
     margin: 5px;
 }

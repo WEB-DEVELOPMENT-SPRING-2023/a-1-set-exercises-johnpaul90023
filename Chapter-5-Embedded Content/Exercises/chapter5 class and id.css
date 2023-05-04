@@ -1,0 +1,14 @@
+/* to style the body*/
+body{
+    text-align: center;
+    background-color:black;
+    margin-top: 150px;
+}
+/* to style the text*/
+h1{
+    color: white;
+}
+/* to style the link text*/
+a{
+    text-decoration: none;
+}

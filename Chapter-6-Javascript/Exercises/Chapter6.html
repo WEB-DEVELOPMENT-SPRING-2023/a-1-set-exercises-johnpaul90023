@@ -1,0 +1,22 @@
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link href="Chapter6 class and id.css" rel="stylesheet"> <!-- Linking the stylesheet-->
+    <script src="Chapter6.js"></script>   <!-- Linking the Javascript-->
+    </head>
+    <body>
+        <h1> Petrol Calculator </h1> <!-- This is the title-->
+        <form>
+            <h2> Enter Cost of Petrol per Lt. :</h2><br> 
+            <input type="text" id="cost" value="1.72" /><br> <!-- This is where the person enters a number-->
+            <h2> Enter Liters of Lt. :</h2><br>
+            <input type="text" id="liters" value="0" /><br> <!-- This is where the person enters a number-->
+            <input type="button" class = "button" onClick="petrolcalculator()" Value="Calculate" /> <!-- This is where the person presses the button to calculate the given amount-->
+            </form>
+            <div class="container"> <!-- adding a style to style out the result section-->
+            <p> Result:
+            <span id = "result" class="style"></span>
+            </p>
+        </div>
+    </body>
